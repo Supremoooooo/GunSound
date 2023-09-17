@@ -2,69 +2,78 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+
+h1{
+    color: brown;
+}
+
 
 body{
     background-image: url(warfield.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
     
 }
 
-.Ak47{
+.a{
     background-image: url(AK-47.png);
     background-repeat: no-repeat;
     background-size: 400px;
     position: absolute;
+    right: 500px;
 
 }
 
-.Colt{
+.t{
     background-image: url(colt.png);
     background-repeat: no-repeat;
     background-size: 300px;
     position: absolute;
     right: 490px;
-    top: 400px;
+    top: 500px;
 
 }
 
-.BarrettM8{
+.b{
     background-image: url(Barrett-M8.png);
     background-repeat: no-repeat;
     background-size: 300px;
     position: absolute;
     left: 100px;
-    top: 200px;
+    top: 300px;
 }
 
-.Machine{
+.m{
     background-image: url(machinegun.png);
     background-repeat: no-repeat;
     background-size: 300px;
     position: absolute;
-    left: 700px;
+    left: 800px;
     top: 300px;
 }
 
-.Bazooka{
+.z{
     background-image: url(bazooka.png);
     background-repeat: no-repeat;
     background-size: 200px;
     position: absolute;
-    left: 700px;
+    left: 800px;
     background-size: 250px;
 
 }
 
 
 
-.Carbine{
+.c{
     background-image: url(carbine.png);
     background-repeat: no-repeat;
     background-size: 300px;
     position: absolute;
-    left: 700px;
+    left: 800px;
     top: 500px;
     background-size: 400px;
 }
@@ -79,4 +88,13 @@ body{
 
 button{
     color: transparent;
+}
+
+.pressed {
+    box-shadow: 0px 8px 8px 0px #704c04;
+    opacity: 0.5;
+}
+
+.content{
+    display: inline-block;
 }
